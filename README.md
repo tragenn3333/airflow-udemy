@@ -11,3 +11,6 @@ Extract API data → Transform rates → Analyze 30-day changes → Save CSV and
 Run `docker compose up -d`.
 
 Open Airflow at `http://localhost:8080` and trigger `currency_exchange_etl`.
+## Sample Output
+
+![Currency Chart](docs/currency_chart_sample.png)
